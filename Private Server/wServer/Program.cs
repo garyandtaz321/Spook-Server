@@ -42,7 +42,7 @@ namespace wServer
                     Settings.GetValue<string>("db_host", "127.0.0.1"),
                     Settings.GetValue<string>("db_database", "rotmgprod"),
                     Settings.GetValue<string>("db_user", "garyman12"),
-                    Settings.GetValue<string>("db_auth", "Bu33F4rt1234"));
+                    Settings.GetValue<string>("db_auth", ""));
 
                 manager = new RealmManager(
                     Settings.GetValue<int>("maxClients", "100"),
